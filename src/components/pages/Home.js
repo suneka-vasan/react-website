@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Ourcompany from '../images/our-company.jpg';
 import Cards from '../inc/Cards';
 import TestimonialSection from '../inc/TestimonialSection';
+import Footer from '../inc/Footer'
 
 function Home() {
     return (
@@ -37,10 +38,10 @@ function Home() {
             <Cards />
 
             <TestimonialSection />
-
+            <Footer />
 
         </>
     )
 }
 
-export default Home
+export default Home;

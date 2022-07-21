@@ -21,6 +21,14 @@ p{
     background-repeat: no-repeat;
     padding-top: 30px ;
 }
+.list-group-item{
+  border: 0px !important;
+  background-color: transparent !important;
+}
+.list-group-item a{
+  text-decoration: none;
+  color:black;
+}
 
 .carousel-indicators{
   bottom: -50px !important;
